@@ -1,14 +1,14 @@
 import { createStackNavigator } from "react-navigation-stack";
 import { createAppContainer } from "react-navigation";
 import Home from "../screens/Home";
-import About from "../screens/About";
+import Detail from "../screens/Detail";
 
 const screens = {
   Home: {
     screen: Home,
   },
-  About: {
-    screen: About,
+  Detail: {
+    screen: Detail,
   },
 };
 

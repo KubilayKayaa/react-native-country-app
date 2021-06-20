@@ -2,7 +2,7 @@ import { StatusBar } from "expo-status-bar";
 import React from "react";
 import { StyleSheet, Text, ScrollView, Image } from "react-native";
 
-export default function About({ navigation }) {
+export default function Detail({ navigation }) {
   function params(param) {
     return navigation.getParam(param);
   }

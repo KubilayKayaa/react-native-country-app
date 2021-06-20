@@ -46,7 +46,7 @@ export default function Home({ navigation }) {
         })
         .map((country, index) => (
           <TouchableOpacity
-            onPress={() => navigation.navigate("About", country)}
+            onPress={() => navigation.navigate("Detail", country)}
             key={index}
           >
             <Text style={styles.touchableText}>{country.name}</Text>
